@@ -1,0 +1,77 @@
+body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+}
+#header {
+	height: 100px;
+	width: 90%;
+	margin: auto;
+}
+#logo {
+	float: left;
+}
+h1 {
+	font-size: 50px;
+}
+#container {
+	position: relative;
+	height: 400px;
+	width: 90%;
+	border: 2px solid gold;
+	background-color: grey;
+	margin-left: 5%;
+	margin-top: 10px;
+	overflow: hidden;
+}
+#character {
+	position: absolute;
+	background: url("img/steph.png");
+	height: 60px;
+	width: 70px;
+	top: 20%;
+	left: 15%;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.obstacle {
+	position: absolute;
+	height: 120px;
+	width: 50px;
+	background-color: gold;
+	right: -50px;
+}
+#obstacle_1 {
+	top: 0;
+}
+#obstacle_2 {
+	bottom: 0;
+}
+#score-div {
+	font-size: 35px;
+	float: right;
+	margin-right: 50px;
+}
+#speed-div {
+	float: right;
+	font-size: 35px;	
+}
+#directions {
+	margin: auto;
+	clear: both;
+	width: 90%;
+}
+#restart {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 20px;
+	font-size: 35px;
+	border: none;
+	cursor: pointer;
+	display: none;
+	margin: auto;
+	border: 1px solid black;
+	z-index: 10;
+}

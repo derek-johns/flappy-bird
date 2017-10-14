@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>NBA Flappy Bird</title>
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+	<!--- Start Header -->
+	<div id="header">
+		<div id="logo">
+			<h1>NBA FLAPPY BIRD</h1>
+		</div>
+		<div id='speed-div'>
+        	<p><b>Speed: </b><span id="shown_speed">0</span></p>
+    	</div>
+		<div id='score-div'>
+        	<p><b>Score: </b><span id="score">0</span></p>
+        </div>
+	</div>
+	<div id='directions'>
+        <p>Press ENTER key to navigate character through obstacles</p>
+    </div>
+	<!--- End Header -->
+	<!--- Start Container -->
+	<div id="container">
+		<button id="restart">Restart</button>
+		<div id="character"></div>
+		<div id="obstacle_1" class="obstacle"></div>
+		<div id="obstacle_2" class="obstacle"></div>
+	</div>
+	<!--- End Container -->
+	<p>&copy; DerekJohnson 2017</p>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
